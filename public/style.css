@@ -1,8 +1,7 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
-  text-align: center;
-  margin-top: 60px;
+  background: #f4f4f4;
+  padding: 40px;
 }
 
 h1, h2 {
@@ -10,26 +9,21 @@ h1, h2 {
 }
 
 form {
-  background: #fff;
+  background: white;
   padding: 20px;
-  display: inline-block;
+  width: 300px;
   border-radius: 5px;
 }
 
-input {
+input, button {
+  width: 100%;
+  margin: 8px 0;
   padding: 8px;
-  width: 200px;
 }
 
 button {
-  padding: 8px 20px;
   background: #007bff;
   color: white;
   border: none;
   cursor: pointer;
-}
-
-a {
-  text-decoration: none;
-  color: #007bff;
 }
