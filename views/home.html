@@ -2,12 +2,58 @@
 <html>
 <head>
   <title>Home</title>
-  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>🎓 Welcome to Student Course Registration</h1>
-  <p>You have successfully logged in.</p>
+  <div class="dashboard">
 
-  <a href="/login">Logout</a>
+    <div class="sidebar">
+      <h2>University Portal</h2>
+      <p><b>Ruchita</b><br>Student</p>
+      <p>Dashboard</p>
+      <p>Courses</p>
+      <p>My Courses</p>
+      <p>Schedule</p>
+      <p>Grades</p>
+      <p>Settings</p>
+    </div>
+
+    <div class="main">
+      <h1>Welcome back, Ruchita!</h1>
+
+      <div class="cards">
+        <div class="stat">Registered Courses<br><b>2</b></div>
+        <div class="stat">Total Credits<br><b>7</b></div>
+        <div class="stat">Enrollment Progress<br><b>35%</b></div>
+        <div class="stat">Upcoming Classes<br><b>3</b></div>
+      </div>
+
+      <h2>Available Courses</h2>
+      <table>
+        <tr>
+          <th>Code</th>
+          <th>Title</th>
+          <th>Instructor</th>
+          <th>Credits</th>
+          <th>Action</th>
+        </tr>
+        <tr>
+          <td>CS101</td>
+          <td>Introduction to Computer Science</td>
+          <td>Ritika</td>
+          <td>3</td>
+          <td><button class="register-btn">Register</button></td>
+        </tr>
+        <tr>
+          <td>MATH201</td>
+          <td>Calculus I</td>
+          <td>Shraddha</td>
+          <td>4</td>
+          <td><button class="register-btn">Register</button></td>
+        </tr>
+      </table>
+    </div>
+
+  </div>
 </body>
 </html>

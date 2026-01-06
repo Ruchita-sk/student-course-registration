@@ -1,29 +1,113 @@
-body {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   font-family: Arial, sans-serif;
-  background: #f4f4f4;
-  padding: 40px;
 }
 
-h1, h2 {
-  color: #333;
+/* Gradient background */
+body {
+  height: 100vh;
+  background: linear-gradient(120deg, #6a7bff, #7b4ca0);
 }
 
-form {
+/* Center card */
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
   background: white;
-  padding: 20px;
-  width: 300px;
-  border-radius: 5px;
+  width: 360px;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
 }
 
-input, button {
+.card h2 {
+  margin-bottom: 20px;
+}
+
+input {
   width: 100%;
-  margin: 8px 0;
-  padding: 8px;
+  padding: 10px;
+  margin: 10px 0;
 }
 
 button {
-  background: #007bff;
+  width: 100%;
+  padding: 10px;
+  background: #4f6eea;
   color: white;
   border: none;
+  cursor: pointer;
+}
+
+a {
+  color: purple;
+  text-decoration: none;
+}
+
+/* ===== HOME PAGE ===== */
+
+.dashboard {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 220px;
+  background: #3f5bd9;
+  color: white;
+  padding: 20px;
+}
+
+.sidebar h2 {
+  margin-bottom: 20px;
+}
+
+.sidebar p {
+  margin: 10px 0;
+}
+
+.main {
+  flex: 1;
+  background: #f4f6fa;
+  padding: 30px;
+}
+
+.cards {
+  display: flex;
+  gap: 20px;
+  margin: 20px 0;
+}
+
+.stat {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 200px;
+}
+
+table {
+  width: 100%;
+  background: white;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+.register-btn {
+  background: green;
+  color: white;
+  border: none;
+  padding: 6px 12px;
   cursor: pointer;
 }
